@@ -1,0 +1,178 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+} 
+.offset::before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    background-color: rgba(0,0,0,0.6) !important;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+
+}
+
+ .navbar-dark .navbar-nav .nav-link{
+    color:#fff;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+color: #1ebba3;
+} 
+
+ .heading-content{
+    position:absolute; 
+    width: 100%;
+    max-width: 100%;
+    top: 35%;
+} 
+
+.heading-content h5{
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
+}
+
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+}
+
+
+
+.heading-content p{
+    font-size: 1em;
+    font-weight: lighter;
+    color: #ccc;
+word-spacing: 5px ;
+letter-spacing: 2px; 
+}
+
+/* About start */
+
+#about .btn,
+.button
+{
+    border: 2px solid red;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .btn a,
+.button a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about .btn:hover,
+.button:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
+
+/* service */
+
+/* Newsletter */
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: none;
+    background: #f8fafb;
+}
+
+.sec1 h2{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+.sec1 p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+}
+/* contact */
+.font{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+/* media query */
+
+@media screen and (max-width:767px) {
+    .navbar{
+        letter-spacing: 0.1em;
+        padding-left: 10px 0;
+    }
+     
+
+.heading-content h5{
+    font-size: 3em;
+
+}
+
+.heading-content h1{
+    font-size: 3em;
+}
+
+.heading-content p{
+    font-size: 0.9em;
+}
+    
+}
+
+@media screen and (max-width:479px) {
+    .navbar{
+        letter-spacing: 0.1em;
+        padding-left: 7px 0;
+    }
+
+    
+     
+
+.heading-content h5{
+    font-size: 2em;
+
+}
+
+.heading-content h1{
+    font-size: 2em;
+}
+
+.heading-content p{
+    font-size: 0.7em;
+}
+#contact .post-heading h3{
+font-size: 2em;
+}
+}

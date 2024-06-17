@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Rubik", sans-serif;
+   }
+body{
+   background:#151719 ;
+}
+hr{
+   background: #2C3E50;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+/* Nav Section */
+.navbar .navbar-nav .nav-item{
+   padding-right: 3.5rem;
+}
+
+.navbar .navbar-nav .nav-item a{
+   font-size: 1.05rem;
+   font-weight: 500;
+   color: #95a5a6;
+}
+
+#navbarSupportedContent > button{
+   background:#6163ff;
+   padding: 0.6rem 1.6rem;
+   font-size: 1rem;
+   font-weight: 700;
+   border: none;
+   border-radius: 5px;
+   color:#E7E8EE ;
+}
+
+/* Heading Section */
+.mid h1{
+   color: #ECEDED;
+   font-weight: 700;
+}
+
+.mid h1 span{
+   color: #5658DD;
+}
+
+.mid p{
+   width: 60%;
+   font-size: 1.4rem;
+   font-weight: 400;
+   color: #97A4AE;
+   word-spacing:0.1rem;
+}
+
+.mid .rw button{
+   background:#6163ff;
+   padding: 0.6rem 1.6rem;
+   font-size: 1rem;
+   font-weight: 700;
+   border: none;
+   border-radius: 5px;
+   color:#E7E8EE ;
+}
+.mid .rw button:nth-child(2){
+   background:#25282C;
+}
+body > div > h1.text2.pt-5{
+   font-weight: 700;
+   font-size: 3rem;
+   counter-reset: #E7E8EE;
+}
+
+/* Cards Section */
+.features .row .one img{
+   background: #5658DD;
+   color: #fff;
+   border-radius: 50px;
+
+}
+
+.features .row .one h3{
+   color: #ECEDED;
+   font-weight: 700;
+}
+
+.features .row .one p{
+   color: #97A4AE;
+   font-weight: 500;
+   font-size: 1.1rem;
+}
+
+/* About Section And Feedback Section*/
+.about h1,
+.feedback h1{
+   font-weight: 700;
+   font-size: 3rem;
+   color: #E7E8EE;
+}
+
+.about p,
+.feedback p{
+   color: #97A4AE;
+   font-weight: 400;
+   font-size: 1.3rem;
+   word-spacing: 0.01rem;
+}
+
+
+body > section.about.container.my-5 > div > div.content.col-lg-6.col-md-6.col-12.p-4 > h6{
+   color: #5658DD;
+   font-weight: 600;
+   font-size: 0.9rem;
+}
+body > section.about.container.my-5 > div > div.content.col-lg-6.col-md-6.col-12.p-4 > h2{
+   font-weight: 700;
+   font-size: 2.2rem;
+}
+
+/* Feedback Section */
+.feedback .row div{
+   background: #25282C;
+   padding: 1rem 1.7rem;
+   color: #fff;
+}
+
+.feedback .row div i{
+   color: #6163ff;
+   font-size: 2rem;
+}
+
+.feedback .row div p{
+   font-weight:500;
+   font-size: 1.1rem;
+   word-spacing: 0.01rem;
+}
+.feedback .row div h4 span{
+   color: #1CB58A;
+}
+
+/* Subscribtion Section */
+.sub{
+   background: #5658DD;
+   padding: 4rem 3rem;
+   border-radius: 5px;
+}
+
+.sub .row h2{
+   font-weight: 700;
+   font-size: 1.9rem;
+   color: #E7E8EE;
+   height: 70px;
+}
+
+.sub .row input{
+   width: 30%;
+   border-style: none;
+   outline: none;
+   padding: 0.9rem 1rem;
+   border-radius: 5px;
+   height: 70px;
+}
+
+/* Footer Section */
