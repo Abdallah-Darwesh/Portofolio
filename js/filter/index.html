@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .store-item {
+            display: none;
+        }
+        .store-item.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>  
+  
+     <div class="container">
+        <h2>Filterable Gallery</h2>
+        <div class="menu">
+            <button class="btn" data-filter="all">All</button>
+            <button class="btn" data-filter="logo">Logo</button>
+            <button class="btn" data-filter="web">Web</button>
+            <button class="btn" data-filter="mobile">Mobile</button>
+        </div>
+        <div class="box" id="store-items">
+            <div class="store-item web">
+                <img class="store-img" src="img/1.jpg" height="100">
+            </div>
+            <div class="store-item logo">
+                <img class="store-img" src="img/2.jpg" height="100">
+            </div>
+            <div class="store-item mobile">
+                <img class="store-img" src="img/3.jpg" height="100">
+            </div>
+            <div class="store-item web">
+                <img class="store-img" src="img/7.jpg" height="100">
+            </div>
+            <div class="store-item logo">
+                <img class="store-img" src="img/8.jpg" height="100">
+            </div>
+            <div class="store-item mobile">
+                <img class="store-img" src="img/9.jpg" height="100">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>

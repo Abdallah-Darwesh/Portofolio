@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'poppins',sans-serif;
+    background: #24384D;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-top: 5rem;
+    
+}
+
+h3{
+    color: #FFF;
+    font-size: 2rem;
+    padding-bottom: .7rem;
+    letter-spacing: 1px;    
+}
+
+h5{
+    color: #FFF;
+    font-size: 1rem;
+    padding-bottom: 3rem; 
+}
+
+.card{
+    background: #FFF;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+    padding: 30px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.img-card{
+    width: 200px;
+    height: 100px;
+    margin-bottom: 10px;
+
+}
+
+.img-card img{
+    background-position: center;
+    background-size: cover;
+
+}
+
+.review{
+    padding-bottom: 1rem;
+}
+
+.star{
+    color: gold;
+    font-size: 0.8rem;
+}
+
+
+.prevbtn,.nextbtn{
+    position: absolute;
+    font-size: 0.8rem;
+    width: 45px;
+    height: 45px;
+    max-width: 45px;
+    max-height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    border: none;
+    
+}
+
+.prevbtn{
+    top: 10%;
+    right: 14%;
+}
+
+.nextbtn{
+    top: 10%;
+    right: 5%;
+}
+.btn{
+    color: gold;
+    font-size: 2rem;
+    background: none;
+    cursor: pointer;
+
+
+}
+
+.btn:hover{
+    background: #24384D;
+}

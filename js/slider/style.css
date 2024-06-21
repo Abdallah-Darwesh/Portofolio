@@ -1,0 +1,38 @@
+body{
+    background: #F3FF3F;
+}
+
+.img-container{
+    width: 90%;
+    height: 50vh;
+    background: url(img/1.jpg) center/cover fixed no-repeat;
+    border: 0.5rem solid #FFF700;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+}
+
+.btn-left,
+.btn-right{
+    position: absolute;
+    top: 50%;
+    background:#3B117E;
+    color: #FFF;
+    border: 0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0;
+}
+
+.btn-left{
+    left: 0; 
+    transform: translate(-50%,-50%);
+}
+
+.btn-right{
+    right: 0;
+    transform: translate(50%,-50%);
+}

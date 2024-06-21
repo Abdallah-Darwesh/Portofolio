@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+background-color: #010a2c;
+cursor: none;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 65px;
+}
+
+.cursor{
+    z-index: 999;
+    position: fixed;
+    background-color: #2696E8;
+    width: 20px;
+    height:20px ;
+    border-radius: 50%;
+    pointer-events: none;
+    box-shadow: 0 0 20px #2696E8,0 0 60px #2696E8,0 0 100px #2696E8;
+    transform: translate(-50%,-50%);
+    animation: colors 5s infinite;
+    display: none;
+}
+
+@keyframes colors{
+    0%{
+        filter:hue-rotate(0deg)
+    }
+    100%{
+        filter:hue-rotate(360deg)
+    }
+}
+
+.cursor::before{
+    content: "";
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #2696E8;
+    opacity: 0.2;
+    transform: translate(-30%,-30%);
+}
